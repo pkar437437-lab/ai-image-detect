@@ -1,8 +1,9 @@
 [server]
 headless = false
 address = "localhost"
-port = 8585
+port = 5000
 
 [theme]
 base = "dark"
+
 
