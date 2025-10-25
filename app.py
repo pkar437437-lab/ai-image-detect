@@ -8,6 +8,7 @@ from datetime import datetime
 from model import AIImageDetector, EnsembleAIDetector
 from utils import preprocess_image, format_confidence
 from database import DatabaseManager
+import os
 
 # Page configuration
 st.set_page_config(
@@ -594,4 +595,5 @@ def sidebar_info():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
+
 
